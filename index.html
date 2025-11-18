@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>S8IM — Venda de Contas RS3</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <img src="https://placehold.co/40x40?text=S8" alt="logo" class="logo" />
+        <h1>S8IM</h1>
+      </div>
+      <nav>
+        <a href="#accounts">Contas</a>
+        <a href="#game-info">Informações do Jogo</a>
+        <a href="#services">Serviços</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h2>Venda de Contas & Serviços para RuneScape 3</h2>
+          <p class="lead">Contas verificadas, powerleveling e suporte. Tema escuro, seguro e direto.</p>
+          <div class="hero-cta">
+            <button onclick="scrollToSection('accounts')">Ver Contas</button>
+            <a class="ghost" href="#services">Nossos Serviços</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="https://placehold.co/600x320?text=RS3+Banner" alt="banner" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Accounts (Modelo A - Simples) -->
+    <section id="accounts" class="section container">
+      <h2>Contas Disponíveis</h2>
+      <p class="muted">Cards simples com nível total, preço e botão comprar.</p>
+
+      <div class="cards">
+        <article class="card">
+          <img src="https://placehold.co/360x180?text=Conta+1" alt="Conta 1" />
+          <div class="card-body">
+            <h3>Main 2600+ Total</h3>
+            <p class="small">Níveis-chave: Attack 99 / Strength 99 / Magic 92</p>
+            <div class="meta">
+              <span class="price">R$ 350</span>
+              <button class="btn-buy" data-id="acct-001" data-title="Main 2600+ Total" data-price="350">Comprar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://placehold.co/360x180?text=Conta+2" alt="Conta 2" />
+          <div class="card-body">
+            <h3>Skiller 120+ Farming</h3>
+            <p class="small">Farming 120 / Herblore 99 / Agility 99</p>
+            <div class="meta">
+              <span class="price">R$ 450</span>
+              <button class="btn-buy" data-id="acct-002" data-title="Skiller 120+ Farming" data-price="450">Comprar</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- adicione mais cards conforme necessário -->
+      </div>
+    </section>
+
+    <!-- Game Info (Texto médio) -->
+    <section id="game-info" class="section alt container">
+      <h2>Informações do Jogo</h2>
+      <p>RuneScape 3 é um MMORPG onde cada jogador evolui uma conta através de <strong>skills</strong>, <strong>missões</strong>, combate e economia. Cada conta tem um nível geral baseado na soma de todas as habilidades.</p>
+
+      <div class="two-col">
+        <div>
+          <h3>Skills</h3>
+          <p><strong>Produção:</strong> Smithing, Crafting, Herblore, Fletching, Cooking, Construction, Runecrafting.</p>
+          <p><strong>Coleta:</strong> Mining, Woodcutting, Fishing, Farming, Hunter, Divination.</p>
+        </div>
+        <div>
+          <h3>Combate & Missões</h3>
+          <p>Skills de combate (Attack, Strength, Defence, Magic, Ranged, Prayer) determinam o poder da conta. Missões desbloqueiam áreas, armas e conteúdo avançado — contas com muitas quests valem mais.</p>
+          <p><strong>Economia:</strong> Grand Exchange, items raros e métodos de farm definem o valor de uma conta com grande saldo ou itens valiosos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section container">
+      <h2>Serviços Disponíveis</h2>
+      <p class="muted">Oferecemos serviços profissionais para agilizar seu progresso no jogo.</p>
+
+      <ul class="services-grid">
+        <li>
+          <h4>Powerleveling</h4>
+          <p>Aumentamos níveis de skills rapidamente com métodos seguros e comprovados.</p>
+        </li>
+        <li>
+          <h4>Quests</h4>
+          <p>Completamos missões para desbloquear conteúdo, rewards e áreas exclusivas.</p>
+        </li>
+        <li>
+          <h4>Farm de GP</h4>
+          <p>Métodos otimizados para gerar ouro (GP) com segurança e eficiência.</p>
+        </li>
+        <li>
+          <h4>Criação de Contas</h4>
+          <p>Montamos contas do zero com build personalizada conforme sua necessidade.</p>
+        </li>
+        <li>
+          <h4>Suporte de Combate</h4>
+          <p>Treino e preparação para bosses, setups e presets.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section alt container">
+      <h2>Contato</h2>
+      <p>Entre em contato via WhatsApp ou Discord para negociar ou tirar dúvidas.</p>
+
+      <div class="contact-row">
+        <a class="btn-whatsapp" href="https://wa.me/5511999999999?text=Olá%20S8IM%2C%20quero%20informações%20sobre%20uma%20conta" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn-ghost" href="https://discord.gg/seulink" target="_blank" rel="noopener">Discord</a>
+      </div>
+
+      <p class="muted small">Aviso: a compra e venda de contas pode violar os Termos de Serviço do jogo. Use com responsabilidade.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© 2025 S8IM — Venda de Contas RS3</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
